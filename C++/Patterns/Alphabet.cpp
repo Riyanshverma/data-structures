@@ -8,7 +8,7 @@ using namespace std;
 // C C C C C
 // D D D D D
 // E E E E E
-void printAlphabet1(int n)
+void printAlphabet(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -25,7 +25,7 @@ void printAlphabet1(int n)
 // A B C D E
 // A B C D E
 // A B C D E
-void printAlphabet2(int n)
+void printAlphabet(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -42,7 +42,7 @@ void printAlphabet2(int n)
 // K L M N O
 // P Q R S T
 // U V W X Y
-void printAlphabet3(int n)
+void printAlphabet(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -59,7 +59,7 @@ void printAlphabet3(int n)
 // C D E F G
 // D E F G H
 // E F G H I
-void printAlphabet4(int n)
+void printAlphabet(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -76,7 +76,7 @@ void printAlphabet4(int n)
 // C C C
 // D D D D
 // E E E E E
-void printAlphabet5(int n)
+void printAlphabet(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -93,7 +93,7 @@ void printAlphabet5(int n)
 // D E F
 // G H I J
 // K L M N O
-void printAlphabet6(int n)
+void printAlphabet(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -110,7 +110,7 @@ void printAlphabet6(int n)
 // C D E
 // D E F G
 // E F G H I
-void printAlphabet7(int n)
+void printAlphabet(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -127,7 +127,7 @@ void printAlphabet7(int n)
 // C C C
 // B B B B
 // A A A A A
-void printAlphabet8(int n)
+void printAlphabet(int n)
 {
     for (int i = n; i > 0; i--)
     {
@@ -144,7 +144,7 @@ void printAlphabet8(int n)
 // C D E
 // B C D E
 // A B C D E
-void printAlphabet8(int n)
+void printAlphabet(int n)
 {
     // Approach 1:
     for (int i = 0; i < n; i++)

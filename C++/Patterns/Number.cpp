@@ -8,7 +8,7 @@ using namespace std;
 // 3 3 3 3 3
 // 4 4 4 4 4
 // 5 5 5 5 5
-void printNumberSquare1(int n)
+void printNumber(int n)
 {
     for (int i = 1; i <= n; i++)
     {
@@ -25,7 +25,7 @@ void printNumberSquare1(int n)
 // 1 2 3 4 5
 // 1 2 3 4 5
 // 1 2 3 4 5
-void printNumberSquare2(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -42,7 +42,7 @@ void printNumberSquare2(int n)
 // 3 3 3 3 3
 // 2 2 2 2 2
 // 1 1 1 1 1
-void printNumberSquare3(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -59,7 +59,7 @@ void printNumberSquare3(int n)
 // 5 4 3 2 1
 // 5 4 3 2 1
 // 5 4 3 2 1
-void printNumberSquare4(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -76,7 +76,7 @@ void printNumberSquare4(int n)
 // 11 12 13 14 15
 // 16 17 18 19 20
 // 21 22 23 24 25
-void printNumberSquare5(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -93,7 +93,7 @@ void printNumberSquare5(int n)
 // 3 3 3
 // 4 4 4 4
 // 5 5 5 5 5
-void printNumberTriangle6(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -110,7 +110,7 @@ void printNumberTriangle6(int n)
 // 4 5 6
 // 7 8 9 10
 // 11 12 13 14 15
-void printNumberTriangle7(int n)
+void printNumber(int n)
 {
     int temp = 0;
     for (int i = 0; i < n; i++)
@@ -128,7 +128,7 @@ void printNumberTriangle7(int n)
 // 3 4 5
 // 4 5 6 7
 // 5 6 7 8 9
-void printNumberTriangle8(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -145,7 +145,7 @@ void printNumberTriangle8(int n)
 // 3 2 1
 // 4 3 2 1
 // 5 4 3 2 1
-void printNumberTriangle9(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -162,7 +162,7 @@ void printNumberTriangle9(int n)
 //     3 3 3
 //       4 4
 //         5
-void printNumberTriangle10(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -186,7 +186,7 @@ void printNumberTriangle10(int n)
 //     3 3 3
 //   4 4 4 4
 // 5 5 5 5 5
-void printNumberTriangle11(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -210,7 +210,7 @@ void printNumberTriangle11(int n)
 //     3 4 5
 //       4 5
 //         5
-void printNumberTriangle12(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -233,7 +233,7 @@ void printNumberTriangle12(int n)
 //     2 3
 //   4 5 6
 // 7 8 9 10
-void printNumberTriangle13(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -257,7 +257,7 @@ void printNumberTriangle13(int n)
 //     1 2 3
 //   1 2 3 4
 // 1 2 3 4 5
-void printNumberTriangle14(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -281,7 +281,7 @@ void printNumberTriangle14(int n)
 //     1 2 3 2 1
 //   1 2 3 4 3 2 1
 // 1 2 3 4 5 4 3 2 1
-void printNumberTriangle15(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -309,7 +309,7 @@ void printNumberTriangle15(int n)
 // 1 2 3
 // 1 2
 // 1
-void printNumberTriangle16(int n)
+void printNumber(int n)
 {
     // Approach 1:
     for (int i = 0; i < n; i++)
@@ -341,7 +341,7 @@ void printNumberTriangle16(int n)
 // 1 2 3         3 2 1
 // 1 2             2 1
 // 1                 1
-void printNumberTriangle17(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -376,7 +376,7 @@ void printNumberTriangle17(int n)
 // 1 2 3
 // 1 2 3 4
 // 1 2 3 4 5
-void printNumberTriangle17(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -393,7 +393,7 @@ void printNumberTriangle17(int n)
 // 1 0 1
 // 0 1 0 1
 // 1 0 1 0 1
-void printNumberTriangle17(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -410,7 +410,7 @@ void printNumberTriangle17(int n)
 // 3 3 3
 // 2 2
 // 1
-void printNumberTriangle17(int n)
+void printNumber(int n)
 {
     for (int i = n; i > 0; i--)
     {
@@ -427,7 +427,7 @@ void printNumberTriangle17(int n)
 // 1 2 3         3 2 1
 // 1 2 3 4     4 3 2 1
 // 1 2 3 4 5 5 4 3 2 1
-void printNumberTriangle17(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -461,7 +461,7 @@ void printNumberTriangle17(int n)
 //     3 2 1 2 3
 //   4 3 2 1 2 3 4
 // 5 4 3 2 1 2 3 4 5
-void printNumberTriangle17(int n)
+void printNumber(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -480,23 +480,39 @@ void printNumberTriangle17(int n)
     }
 }
 
-//     1 
-//    2 2 
-//   3 3 3 
-//  4 4 4 4 
+//     1
+//    2 2
+//   3 3 3
+//  4 4 4 4
 // 5 5 5 5 5
-void printNumberTriangle17(int n)
+void printNumber(int n)
 {
-    for(int i=0;i<n;i++) {
-        for(int j=0;j<n+i;j++) {
-            if(i+j+1>n-1) {
-                if((i%2==0 && j%2==0) || (i%2==1 && j%2==1)) {
-                    cout<<i+1<<" ";
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n + i; j++)
+        {
+            if (i + j + 1 > n - 1)
+            {
+                if ((i % 2 == 0 && j % 2 == 0) || (i % 2 == 1 && j % 2 == 1))
+                {
+                    cout << i + 1 << " ";
                 }
-            } else {
-                cout<<" ";
+            }
+            else
+            {
+                cout << " ";
             }
         }
-        cout<<endl;
+        cout << endl;
     }
 }
+
+// 5 5 5 5 5 5 5 5 5
+// 5 4 4 4 4 4 4 4 5
+// 5 4 3 3 3 3 3 4 5
+// 5 4 3 2 2 2 3 4 5
+// 5 4 3 2 1 2 3 4 5
+// 5 4 3 2 2 2 3 4 5
+// 5 4 3 3 3 3 3 4 5
+// 5 4 4 4 4 4 4 4 5
+// 5 5 5 5 5 5 5 5 5

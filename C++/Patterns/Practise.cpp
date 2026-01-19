@@ -1,22 +1,18 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
+// filepath: C++/Patterns/Practise.cpp
 int main() {
     int n;
-    cout<<"Enter the number(n): ";
-    cin>>n;
-
-    for(int i=0;i<n;i++) {
-        for(int j=0;j<n+i;j++) {
-            if(i+j+1>n-1) {
-                if((i%2==0 && j%2==0) || (i%2==1 && j%2==1)) {
-                    cout<<i+1<<" ";
-                }
-            } else {
-                cout<<" ";
-            }
+    cout << "Enter n: ";
+    cin >> n;
+    int size = 2 * n - 1;
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            int minDist = min(min(i, j), min(size - 1 - i, size - 1 - j));
+            cout << n - minDist << " ";
         }
-        cout<<endl;
+        cout << endl;
     }
     return 0;
 }

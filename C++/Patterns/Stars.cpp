@@ -8,7 +8,7 @@ using namespace std;
 // * * * * *
 // * * * * *
 // * * * * *
-void printSolidSquare(int n)
+void printSquare(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -25,7 +25,7 @@ void printSolidSquare(int n)
 // * * *
 // * * * *
 // * * * * *
-void printSolidTriangle1(int n)
+void printTriangle(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -42,7 +42,7 @@ void printSolidTriangle1(int n)
 //     * * *
 //   * * * *
 // * * * * *
-void printSolidTriangle2(int n)
+void printTriangle(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -66,7 +66,7 @@ void printSolidTriangle2(int n)
 // * * *
 // * *
 // *
-void printSolidTriangle3(int n)
+void printTriangle(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -83,7 +83,7 @@ void printSolidTriangle3(int n)
 //     * * *
 //       * *
 //         *
-void printSolidTriangle4(int n)
+void printTriangle(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -111,7 +111,7 @@ void printSolidTriangle4(int n)
 // * * *
 // * *
 // *
-void printSolidTriangle4(int n)
+void printTriangle(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -136,7 +136,7 @@ void printSolidTriangle4(int n)
 //     * * * * *
 //   * * * * * * *
 // * * * * * * * * *
-void printSolidTriangle4(int n)
+void printTriangle(int n)
 {
     // Approach 1:
     for (int i = 0; i < n; i++)
@@ -182,7 +182,7 @@ void printSolidTriangle4(int n)
 //     * * * * *
 //       * * *
 //         *
-void printSolidTriangle4(int n)
+void printTriangle(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -210,7 +210,7 @@ void printSolidTriangle4(int n)
 //     * * * * *
 //       * * *
 //         *
-void printSolidTriangle4(int n)
+void printRhombus(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -254,7 +254,7 @@ void printSolidTriangle4(int n)
 //   * * *
 //  * * * *
 // * * * * *
-void printSolidTriangle4(int n)
+void printTriangle(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -315,7 +315,7 @@ void printSolidTriangle4(int n)
 // *       *
 // *       *
 // * * * * *
-void printSolidTriangle4(int n)
+void printSquare(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -339,7 +339,7 @@ void printSolidTriangle4(int n)
 //     *       *
 //   *           *
 // * * * * * * * * *
-void printSolidTriangle4(int n)
+void printTriangle(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -368,7 +368,7 @@ void printSolidTriangle4(int n)
 //     *       *
 //       *   *
 //         *
-void printSolidTriangle4(int n)
+void printTriangle(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -401,7 +401,7 @@ void printSolidTriangle4(int n)
 //     *       *
 //       *   *
 //         *
-void printSolidTriangle4(int n)
+void printRhombus(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -445,7 +445,7 @@ void printSolidTriangle4(int n)
 // * * *         * * *
 // * * * *     * * * *
 // * * * * * * * * * *
-void printSolidTriangle4(int n)
+void printSquare(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -492,7 +492,7 @@ void printSolidTriangle4(int n)
 // * * *         * * *
 // * *             * *
 // *                 *
-void printSolidTriangle4(int n)
+void printTriangle(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -525,6 +525,133 @@ void printSolidTriangle4(int n)
             else
             {
                 cout << "* ";
+            }
+        }
+        cout << endl;
+    }
+}
+
+//         *
+//       * *
+//     *   *
+//   *     *
+// *       *
+//   *     *
+//     *   *
+//       * *
+//         *
+void printTriangle(int n)
+{
+    for (int i = 0; i < 2 * n - 1; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (j == n - 1)
+            {
+                cout << "* ";
+                continue;
+            }
+            else if ((i + j == n - 1) || (i - j == n - 1))
+            {
+                cout << "* ";
+            }
+            else
+            {
+                cout << "  ";
+            }
+        }
+        cout << endl;
+    }
+}
+
+// *
+// * *
+// *   *
+// *     *
+// *       *
+// *     *
+// *   *
+// * *
+// *
+void printTriangle(int n)
+{
+    for (int i = 0; i < 2 * n - 1; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (j == 0)
+            {
+                cout << "* ";
+                continue;
+            }
+            else if ((i == j) || (i + j == 2 * n - 2))
+            {
+                cout << "* ";
+            }
+            else
+            {
+                cout << "  ";
+            }
+        }
+        cout << endl;
+    }
+}
+
+// *                 *
+// * *             * *
+// *   *         *   *
+// *     *     *     *
+// *       * *       *
+// *     *     *     *
+// *   *         *   *
+// * *             * *
+// *                 *
+void printTriangle(int n)
+{
+    for (int i = 0; i < 2 * n - 1; i++)
+    {
+        for (int j = 0; j < 2 * n; j++)
+        {
+            if (j == 0 || j == 2 * n - 1)
+            {
+                cout << "* ";
+                continue;
+            }
+            else if ((i == j && j < n) || (i + j == 2 * n - 2 && j < n) || (i + j == 2 * n - 1 && j > n - 1) || (j - i == 1 && j > n))
+            {
+                cout << "* ";
+            }
+            else
+            {
+                cout << "  ";
+            }
+        }
+        cout << endl;
+    }
+}
+
+// *               *
+//   *           *
+//     *       *
+//       *   *
+//         *
+//       *   *
+//     *       *
+//   *           *
+// *               *
+void printX(int n)
+{
+    for (int i = 0; i < 2 * n - 1; i++)
+    {
+        for (int j = 0; j < 2 * n - 1; j++)
+        {
+            if (i == j || i + j == 2 * n - 2)
+            {
+                cout << "*";
+            }
+            else
+            {
+                cout << " ";
             }
         }
         cout << endl;
